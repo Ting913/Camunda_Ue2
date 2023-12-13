@@ -28,14 +28,14 @@ public class WorkerApplication {
 		logger.addHandler(handler);
 	}
 
-	@JobWorker(type = "notify_person_to_quarantine")
-	public void notifyPersonToQuarantine(final ActivatedJob job, @Variable String person_uuid) {
+	@JobWorker(type = "send_rejection")
+	public void sendRejection(final ActivatedJob job, @Variable String person_uuid) {
 		logger.info("Retrieving contact details for person " + person_uuid + " from external database...");
 		logger.info("Sending notification to person " + person_uuid + " to quarantine...");
 	}
 
-	@JobWorker(type = "generate_certificate_of_recovery")
-	public void generateCertificateOfRecovery(final ActivatedJob job, @Variable String person_uuid) {
+	@JobWorker(type = "send_confirmation")
+	public void sendConfirmation(final ActivatedJob job, @Variable String person_uuid) {
 		UUID recovery_certificate_uuid = UUID.randomUUID();
 		logger.info("Generating certificate of recovery for person " + person_uuid +"...");
 		logger.info("Generated certificate ID: " + recovery_certificate_uuid);
