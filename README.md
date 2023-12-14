@@ -11,6 +11,3 @@ The main content of this assignment is an Airbnb payment process. We have attach
 ## Running the Process
 
 After running the process, when you encounter a service task, you need to start the backend service. To automate, you need to generate a new client API from the console, and then replace the content in `application.yaml`.
-
-Thank you for reading! If you have any questions or suggestions, feel free to reach out to us.
-
