@@ -1,4 +1,4 @@
-# BPA 2 BPMN Specification with Camunda Exercise - Airbnb Payment Process
+# BPA Ue2 BPMN Specification with Camunda Exercise - Airbnb Payment Process
 
 Welcome to our BPA assignment repository! We are members of Group 2, and this repository contains our Airbnb payment process assignment.
 
