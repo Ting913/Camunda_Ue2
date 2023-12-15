@@ -6,7 +6,7 @@ Welcome to our BPA assignment repository! We are members of Group 2, and this re
 
 The main content of this assignment is an Airbnb payment process. We have attached a screenshot of the process diagram below for your reference.
 
-![airbnb_process](https://github.com/Ting913/Camunda_Ue2/assets/113438865/9e91fa58-7e81-4cd2-9768-953d87b0c897)
+![airbnb](https://github.com/Ting913/Camunda_Ue2/assets/113438865/37bfc0cc-b512-433a-b40b-808c73b40108)
 
 ## Running the Process
 
