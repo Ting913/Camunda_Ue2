@@ -1,0 +1,33 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.3.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "ceb2fc3"
+  },
+  "schemaVersion": 13,
+  "id": "host-decision-10g1hre",
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Has the landlord agreed?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0jzvh36",
+        "columns": null
+      },
+      "id": "Field_05xu1wv",
+      "key": "radio_xawbqd"
+    }
+  ],
+  "type": "default"
+}

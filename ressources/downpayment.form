@@ -1,0 +1,43 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.3.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e0907ac"
+  },
+  "schemaVersion": 14,
+  "id": "downpayment-1wdpu6n",
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0h5xko9",
+        "columns": null
+      },
+      "id": "Field_08mt8ik",
+      "key": "textfield_97bb3g"
+    },
+    {
+      "label": "Downpayment",
+      "type": "number",
+      "layout": {
+        "row": "Row_1xdlqhj",
+        "columns": null
+      },
+      "id": "Field_1jy95z9",
+      "key": "number_ss15r"
+    },
+    {
+      "label": "Bank Transaction Number for Downpayment",
+      "type": "number",
+      "layout": {
+        "row": "Row_1u7vxxc",
+        "columns": null
+      },
+      "id": "Field_1fvaw9s",
+      "key": "number_coley"
+    }
+  ],
+  "type": "default"
+}

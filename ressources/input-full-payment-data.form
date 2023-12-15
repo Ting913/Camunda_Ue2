@@ -1,0 +1,43 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.3.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e0907ac"
+  },
+  "schemaVersion": 14,
+  "id": "input-full-payment-data-0b11esm",
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0jo62ll",
+        "columns": null
+      },
+      "id": "Field_08up4uw",
+      "key": "textfield_uqtst9"
+    },
+    {
+      "label": "Bank Transaction Number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0oy2i0y",
+        "columns": null
+      },
+      "id": "Field_0kydwan",
+      "key": "textfield_brmfbi"
+    },
+    {
+      "label": "Payment_Amount",
+      "type": "number",
+      "layout": {
+        "row": "Row_0lbun3c",
+        "columns": null
+      },
+      "id": "Field_07stdxr",
+      "key": "number_oojhc9"
+    }
+  ],
+  "type": "default"
+}
